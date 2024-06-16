@@ -1,4 +1,5 @@
 import AboutUs from "../../assets/image/about.png";
+import BgButtonBorder from "../../assets/image/bg-button-border.png";
 
 const About = () => {
   return (
@@ -15,7 +16,10 @@ const About = () => {
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </h5>
           <div className="mt-10">
-            <button className="bg-bgBorder text-bluePrimary h-[62px] w-[199px] bg-no-repeat text-lg font-semibold hover:opacity-80">
+            <button
+              className="h-[62px] w-[199px] bg-no-repeat text-lg font-semibold text-bluePrimary hover:opacity-80"
+              style={{ backgroundImage: `url(${BgButtonBorder})` }}
+            >
               Checkout our socials
             </button>
           </div>

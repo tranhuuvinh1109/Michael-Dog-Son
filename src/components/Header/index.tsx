@@ -2,15 +2,22 @@ import SvgHamburger from "../../assets/svgComponents/SvgHamburger";
 import SvgLogo from "../../assets/svgComponents/SvgLogo";
 import Svgsend from "../../assets/svgComponents/SvgSend";
 import SvgX from "../../assets/svgComponents/SvgX";
+import BgButton from "../../assets/image/bg-button.png";
+import BgButtonHover from "../../assets/image/bg-button-hover.png";
 
 const Header = () => {
   return (
-    <div className="border-text fixed left-0 right-0 top-0 z-50 border-b backdrop-blur">
+    <div className="fixed left-0 right-0 top-0 z-50 border-b border-text bg-bluePrimary80 backdrop-blur">
       <div className="mx-auto flex max-w-[1280px] items-center justify-between py-4">
         <SvgLogo />
         <div className="flex items-center justify-between gap-28">
           <div className="flex items-center gap-10">
-            <button className="text-text bg-button hover:bg-buttonHover h-[41px] w-[146px] font-semibold">
+            <button
+              className="h-[41px] w-[146px] font-semibold text-text"
+              style={{ backgroundImage: `url(${BgButton})` }}
+              onMouseEnter={(e) => (e.currentTarget.style.backgroundImage = `url(${BgButtonHover})`)}
+              onMouseLeave={(e) => (e.currentTarget.style.backgroundImage = `url(${BgButton})`)}
+            >
               Connect Wallet
             </button>
             <button className="hover:opacity-80">

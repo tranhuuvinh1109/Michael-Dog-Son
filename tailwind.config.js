@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         bluePrimary: "#97D1EB",
+        bluePrimary80: "rgba(9, 27, 53, 0.8)",
         bgPrimary: "#091B35",
         text: "#FCFCF7",
       },
