@@ -5,10 +5,11 @@ import SvgCoinbase from "../../assets/svgComponents/SvgCoinbase";
 import SvgEthereum from "../../assets/svgComponents/SvgEthereum";
 import SvgPolygon from "../../assets/svgComponents/SvgPolygon";
 import SvgSolana from "../../assets/svgComponents/SvgSolana";
+import BgCircle from "../../assets/image/circle.png";
 
 const Partner = () => {
   return (
-    <div className="bg-bgCircle mt-16 bg-top pt-2">
+    <div className="mt-16 bg-top pt-2" style={{ backgroundImage: `url(${BgCircle})` }}>
       <div className="flex justify-center">
         <img src={PartnerImg} alt="Partner" className="w-[450px]" />
       </div>

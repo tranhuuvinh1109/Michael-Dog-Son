@@ -1,5 +1,6 @@
 import { HeroList } from "../../constants/common";
 import Coin from "../../assets/image/Coin.png";
+import BgContainerBlue from "../../assets/image/bg-container-blue.png";
 
 const Hero = () => {
   return (
@@ -7,7 +8,7 @@ const Hero = () => {
       {HeroList.map((item, index) => {
         return (
           <div key={index} className="relative pb-20">
-            <div className="bg-bgContainerBlue h-[462px] w-[346px] px-4 py-6">
+            <div className="h-[462px] w-[346px] px-4 py-6" style={{ backgroundImage: `url(${BgContainerBlue})` }}>
               <h1 className="text-2xl text-white">{item.title}</h1>
               <div className="mt-8 flex flex-col gap-6">
                 <p className="">{item.content}</p>
