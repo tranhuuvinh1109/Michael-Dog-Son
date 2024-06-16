@@ -1,4 +1,5 @@
 import { RoadmapList } from "../../constants/common";
+import BgRoadmap from "../../assets/image/circle-roadmap.png";
 
 const RoadMap = () => {
   return (
@@ -9,7 +10,7 @@ const RoadMap = () => {
         <h5 className="pl-4">Strategic plan outlining steps to achieve specific goals and milestones.</h5>
       </div>
       <div className="flex">
-        <div className="w-1/2 bg-bgCircleRoadmap bg-contain bg-left-top bg-repeat-y">
+        <div className="w-1/2 bg-contain bg-left-top bg-repeat-y" style={{ backgroundImage: `url(${BgRoadmap})` }}>
           <h1 className="pt-16 text-4xl font-semibold text-bgPrimary">Phase 1</h1>
           <h5>Launch and Initial Growth (Investor-Focused and Michael Jackson Inspired)</h5>
         </div>
