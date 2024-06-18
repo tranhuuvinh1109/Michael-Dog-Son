@@ -5,5 +5,6 @@ import { default as Hero } from "./Hero";
 import { default as Partner } from "./Partner";
 import { default as About } from "./About";
 import { default as RoadMap } from "./RoadMap";
+import { default as Timeline } from "./Timeline";
 
-export { Header, Container, Welcome, Hero, Partner, About, RoadMap };
+export { Header, Container, Welcome, Hero, Partner, About, RoadMap, Timeline };

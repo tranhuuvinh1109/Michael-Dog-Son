@@ -1,4 +1,4 @@
-import { About, Container, Hero, Partner, RoadMap, Welcome } from "../../components";
+import { About, Container, Hero, Partner, RoadMap, Timeline, Welcome } from "../../components";
 
 const HomePage = () => {
   return (
@@ -14,6 +14,11 @@ const HomePage = () => {
       <div className="bg-bluePrimary">
         <Container>
           <RoadMap />
+        </Container>
+      </div>
+      <div className="bg-bgPrimary text-text">
+        <Container>
+          <Timeline />
         </Container>
       </div>
     </>

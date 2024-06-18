@@ -1,4 +1,4 @@
-import { HeroItemType, RoadmapItemType } from "../types/common";
+import { HeroItemType, RoadmapItemType, TagItemType, TimelineItemType } from "../types/common";
 
 export const HeroList: HeroItemType[] = [
   {
@@ -158,5 +158,72 @@ export const RoadmapList: RoadmapItemType[] = [
         text: "Feel good about your investment as a portion of transaction fees goes to charitable causes related to children’s welfare and musical education, reflecting Michael Jackson's legacy.",
       },
     ],
+  },
+];
+
+export const TimelineList: TimelineItemType[] = [
+  {
+    title: "Timeline and Milestones",
+    text: [
+      "- Month 1: Join the exclusive Moonwalk Pre-Sale and secure your position early.",
+      "- Month 1-2: Participate in the Thriller Distribution and trade confidently with Smooth Criminal DEX Listing.",
+      "- Month 2-4: Engage in the Beat It Marketing Campaign, Moonwalk Memes, Thriller Contests, and Neverland AMAs.",
+      "- Month 5: Experience the first Bad Airdrop and benefit from Off the Wall Partnerships.",
+      "- Month 6-8: Enjoy the enhanced security of Smooth Criminal features and contribute to Heal the World Charity Drives.",
+    ],
+  },
+  {
+    title: "Success Metrics",
+    text: [
+      "- Investment Growth: Track the growth of your investment through market cap and trading volume.",
+      "- Community Engagement: Monitor the number of active participants, social media followers, and engagement in events.",
+      "- Transaction Volume: Measure the trading volume on exchanges and the number of transactions.",
+      "- Liquidity Health: Ensure robust liquidity in Billie Jean Liquidity Pools.",
+      "- Charity Contributions: Track funds raised and donated through Heal the World Charity Drives, enhancing the social impact of your investment.",
+    ],
+  },
+];
+
+export const SloganList: string[] = [
+  "By blending the magic of Michael Jackson with a solid investment strategy",
+  "Michael Dogson aims to create a unique and profitable opportunity for",
+  "investors while building a vibrant and engaged community.",
+];
+
+export const TagList: TagItemType[] = [
+  {
+    color: "#72E6FE",
+    text: "Presale Allocation",
+    percent: "15%",
+  },
+  {
+    color: "#01C1FE",
+    text: "Staking",
+    percent: "10%",
+  },
+  {
+    color: "#498DFE",
+    text: "Project Funds",
+    percent: "25%",
+  },
+  {
+    color: "#4F57FE",
+    text: "Liquidity",
+    percent: "10%",
+  },
+  {
+    color: "#9D61FE",
+    text: "Marketing",
+    percent: "25%",
+  },
+  {
+    color: "#E67FFE",
+    text: "Ecosystem Funds",
+    percent: "10%",
+  },
+  {
+    color: "#E055B1",
+    text: "Exchanges",
+    percent: "5%",
   },
 ];
