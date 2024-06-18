@@ -13,3 +13,14 @@ export type RoadmapItemContentType = {
   label: string;
   text: string;
 };
+
+export type TimelineItemType = {
+  title: string;
+  text: string[];
+};
+
+export type TagItemType = {
+  color: string;
+  text: string;
+  percent: string;
+};
