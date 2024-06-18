@@ -3,8 +3,8 @@ import BgButtonBorder from "../../assets/image/bg-button-border.png";
 
 const About = () => {
   return (
-    <div className="flex items-center">
-      <div className="w-1/2">
+    <div className="flex flex-wrap items-center">
+      <div className="w-full sm:w-1/2">
         <div className="px-14">
           <h1 className="text-6xl font-semibold">About us</h1>
           <h5 className="mt-10">
@@ -15,7 +15,7 @@ const About = () => {
           <h5 className="mt-6">
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </h5>
-          <div className="mt-10">
+          <div className="mt-10 flex justify-center">
             <button
               className="h-[62px] w-[199px] bg-no-repeat text-lg font-semibold text-bluePrimary hover:opacity-80"
               style={{ backgroundImage: `url(${BgButtonBorder})` }}
@@ -25,8 +25,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2">
-        <img src={AboutUs} about="AboutUs" />
+      <div className="flex justify-center sm:w-1/2">
+        <img src={AboutUs} about="AboutUs" className="w-2/3 sm:w-full" />
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import BgContainerBlue from "../../assets/image/bg-container-blue.png";
 
 const Hero = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex flex-wrap justify-center sm:justify-between">
       {HeroList.map((item, index) => {
         return (
           <div key={index} className="relative pb-20">
