@@ -17,7 +17,7 @@ const Partner = () => {
         Buy and claim <span className="font-semibold">$DOGSON</span> on any of these chains
       </h5>
       <div className="pb-10 pt-24">
-        <div className="flex items-center justify-center gap-8">
+        <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-8">
           <SvgEthereum />
           <SvgBinance />
           <SvgPolygon />
