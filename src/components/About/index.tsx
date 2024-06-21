@@ -8,12 +8,13 @@ const About = () => {
         <div className="px-14">
           <h1 className="text-6xl font-semibold">About us</h1>
           <h5 className="mt-10">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
+            Welcome to Michael Dog Son, your trusted companion in cryptocurrency! Our mission is to simplify your crypto
+            journey with reliable insights, innovative solutions, and a supportive community. We believe in the power of
+            blockchain technology and digital assets.
           </h5>
           <h5 className="mt-6">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Stay connected with us and be a part of our vibrant community. Checkout our socials to keep up with the
+            latest updates and join the conversation!
           </h5>
           <div className="mt-10 flex justify-center">
             <button

@@ -20,10 +20,13 @@ const Welcome = () => {
         style={{ backgroundImage: `url(${BgWelcome})` }}
       >
         <div className="z-10 sm:w-1/2">
-          <h1 className="text-6xl font-semibold">Lorem Ipsum dolor dummy text</h1>
+          <h1 className="text-6xl font-semibold">Michael Dog Son</h1>
+          <h1 className="text-6xl font-semibold">The Future of Digital Currency</h1>
           <div className="relative mt-6">
             <span className="absolute h-full w-1 rounded-lg bg-bluePrimary"></span>
-            <h5 className="pl-4 text-lg">Subheading lorem ipsum text for idea and placement.</h5>
+            <h5 className="pl-4 text-lg">
+              Join the revolution with Michael Dog Son, the most secure and innovative cryptocurrency on the market.
+            </h5>
           </div>
           <div className="mt-4 flex flex-wrap items-center gap-6">
             <button
@@ -68,10 +71,12 @@ const Welcome = () => {
         style={{ backgroundImage: `url(${BgWelcomeMobile})` }}
       >
         <div className="z-10 px-2 pb-16 sm:w-1/2">
-          <h1 className="text-2xl font-semibold sm:text-6xl">Lorem Ipsum dolor dummy text</h1>
+          <h1 className="text-2xl font-semibold sm:text-6xl">Michael Dog Son - The Future of Digital Currency</h1>
           <div className="relative mt-6">
             <span className="absolute h-full w-1 rounded-lg bg-bluePrimary"></span>
-            <h5 className="pl-4 sm:text-lg">Subheading lorem ipsum text for idea and placement.</h5>
+            <h5 className="pl-4 sm:text-lg">
+              Join the revolution with Michael Dog Son, the most secure and innovative cryptocurrency on the market.
+            </h5>
           </div>
           <div className="mt-4 flex flex-wrap items-center gap-6">
             <button
