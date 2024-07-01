@@ -227,3 +227,9 @@ export const TagList: TagItemType[] = [
     percent: "5%",
   },
 ];
+
+export const CONTACT_ADDRESS = "0xe969813463Aa3DD4E98F64Ff633e6C09578563dc";
+
+export const LINK_T = "https://t.me/michaeldogson";
+
+export const LINK_X = "https://x.com/michaeldogsonon";
