@@ -43,13 +43,13 @@ const Timeline = () => {
             <img src={BgContainerToken} alt="BgContainerToken" className="h-[280px] w-[330px] sm:h-fit sm:w-[600px]" />
             <div className="absolute top-0 pl-4 pt-4 sm:pl-8 sm:pr-16 sm:pt-8">
               <h1 className="font-semibold text-bluePrimary sm:text-4xl">
-                {"DOGEVERSE HAS A TOTAL SUPPLY OF 200,000,000,000 TOKENS"}
+                {"MICHAEL DOGSON HAS A TOTAL SUPPLY OF 200,000,000,000 TOKENS"}
               </h1>
               <div className="mt-2 flex gap-2">
                 <div className="w-3 rounded-full bg-bluePrimary"></div>
                 <h5 className="text-sm sm:text-base">
                   {
-                    "The $DOGEVERSE token is minted on Ethereum and is unique in that it can also be claimed, stored and traded on Solana, BNB Chain, Base, Polygon, or Avalanche using Wormhole and Portal Bridge tech."
+                    "The $MDS token is minted on Ethereum and is unique in that it can also be claimed, stored and traded on Solana, BNB Chain, Base, Polygon, or Avalanche using Wormhole and Portal Bridge tech."
                   }
                 </h5>
               </div>

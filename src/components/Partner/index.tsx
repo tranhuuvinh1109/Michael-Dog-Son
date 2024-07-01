@@ -14,7 +14,7 @@ const Partner = () => {
         <img src={PartnerImg} alt="Partner" className="w-[450px]" />
       </div>
       <h5 className="text-center text-lg text-black">
-        Buy and claim <span className="font-semibold">$DOGSON</span> on any of these chains
+        Buy and claim <span className="font-semibold">$MDS</span> on any of these chains
       </h5>
       <div className="pb-10 pt-24">
         <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-8">

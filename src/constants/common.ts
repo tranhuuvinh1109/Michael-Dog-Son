@@ -4,17 +4,17 @@ export const HeroList: HeroItemType[] = [
   {
     title: "GROOVING THE CHAIN MICHAEL DOGSON",
     content:
-      "Spawned by a collapsing supernova, Cosmo the Doge was born with the unique ability to hyperjump between the stars of the crypto universe. His time-tested voyages across Ethereum and Solana transformed the Doge Meme into a symbol of unity and creativity, giving rise to the Dogeverse.",
+      "Spawned by a collapsing supernova, Cosmo the Doge was born with the unique ability to hyperjump between the stars of the crypto universe. His time-tested voyages across Ethereum and Solana transformed the Doge Meme into a symbol of unity and creativity, giving rise to the Michael Dogson.",
     footer:
-      "Now, Cosmo has discovered a way to share his chain-traveling ability so that $DOGEVERSE holders can freely traverse the best crypto chains. What a good boy.",
+      "Now, Cosmo has discovered a way to share his chain-traveling ability so that $Michael Dogson holders can freely traverse the best crypto chains. What a good boy.",
   },
 
   {
     title: "THE MICHAELVERSE IS MULTICHAIN",
     content:
-      "Dogeverse is the first Doge Meme token built on a multichain network spanning Ethereum, BNB Chain, Polygon, Solana, Avalanche and Base.",
+      "Michael Dogson is the first Doge Meme token built on a multichain network spanning Ethereum, BNB Chain, Polygon, Solana, Avalanche and Base.",
     footer:
-      "Welcome to an interconnected universe of doge lovers where community, rewards, and creative fun converge. Stake your $DOGEVERSE tokens on Ethereum to earn passive rewards and increase your bags throughout meme season",
+      "Welcome to an interconnected universe of doge lovers where community, rewards, and creative fun converge. Stake your $Michael Dogson tokens on Ethereum to earn passive rewards and increase your bags throughout meme season",
   },
   {
     title: "LAUNCHING ON 6 STELLAR CHAINS",
