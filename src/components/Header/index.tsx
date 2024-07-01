@@ -4,6 +4,7 @@ import Svgsend from "../../assets/svgComponents/SvgSend";
 import SvgX from "../../assets/svgComponents/SvgX";
 import BgButton from "../../assets/image/bg-button.png";
 import BgButtonHover from "../../assets/image/bg-button-hover.png";
+import { LINK_T, LINK_X } from "../../constants/common";
 
 const Header = () => {
   return (
@@ -25,20 +26,36 @@ const Header = () => {
             >
               Connect Wallet
             </button>
-            <button className="hover:opacity-80">
-              <SvgX width={26} height={26} />
-            </button>
-            <button className="hover:opacity-80">
-              <Svgsend width={26} height={26} />
-            </button>
+            <a href={LINK_X} target="_blank" rel="noreferrer">
+              <button className="hover:opacity-80">
+                <SvgX width={26} height={26} />
+              </button>
+            </a>
+
+            <a href={LINK_T} target="_blank" rel="noreferrer">
+              <button className="hover:opacity-80">
+                <Svgsend width={26} height={26} />
+              </button>
+            </a>
           </div>
           <button className="hover:opacity-80">
             <SvgHamburger width={26} height={26} />
           </button>
         </div>
-        <div className="block px-4 sm:hidden">
+        <div className="flex items-center gap-4 px-4 sm:hidden">
+          <a href={LINK_X} target="_blank" rel="noreferrer" className="flex items-center">
+            <button className="hover:opacity-80">
+              <SvgX width={24} height={24} />
+            </button>
+          </a>
+
+          <a href={LINK_T} target="_blank" rel="noreferrer" className="flex items-center">
+            <button className="hover:opacity-80">
+              <Svgsend width={24} height={24} />
+            </button>
+          </a>
           <button className="hover:opacity-80">
-            <SvgHamburger width={26} height={26} />
+            <SvgHamburger width={24} height={24} />
           </button>
         </div>
       </div>
